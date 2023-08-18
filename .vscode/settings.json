@@ -1,0 +1,17 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/d8f6d617-3fcb-4721-b1fe-db6d8cb397ff/resourceGroups/rg-wiznet-iot-solution/providers/Microsoft.Web/sites/wiznet-iot-backend-usersite-app",
+    "appService.deploySubpath": ".",
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact"
+      ],
+      "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true,
+      },
+}
